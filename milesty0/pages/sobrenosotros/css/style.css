@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../images/fondo.jpeg);
+    background-position:  center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #f5f5dc;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.milestylo-img {
+    position: absolute;
+    width: 200px;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 25px;
+    color: #f5f5dc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #AAC922;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 60px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f5f5dc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: beige;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #AAC922;
+    color: beige;
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+
+.btn-1:hover {
+    background-color: #988039;
+}
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+ .heading h1{
+    margin-bottom: 25px;
+    position: relative;
+    color: #AAC922;
+ }
+
+ .heading h1::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #988039;
+ }
+
+ .heading p {
+    margin-bottom: 35px;
+ }
+
+ .container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+ }
+
+ .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .about-image {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+ }
+
+ .about-imageimg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+ }
+
+ .about-image:hover img{
+    transform: scale(1.2);
+ }
+ .about-content{
+    flex: 1;
+ }
+
+ .about-content h2{
+    margin-bottom: 15px;
+    color: #988039;
+ }
+
+ .about-content p{
+    padding: 10px 10px 10px 0px;
+    font-size: 16px;
+    line-height: 1.5;
+ }
+
+.about-content .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    color: beige;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+.about-content .read-more:hover{
+    background-color: #AAC922;
+}
+
+.milesty {
+    padding: 100px 0;
+    background-color: #f5f5dc;
+    position: relative;
+}
+
+.milesty-content {
+    text-align: center;
+}
+
+.milesty-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #e0b404;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 20px;
+    color: #988039;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.milesty-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.milesty-1 video {
+    width: 500px;
+
+}
+
+.milesty-group1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.milesty-2 video {
+    width: 500px;
+}
+
+
+
+.milesty-1 h3{
+    color: #e7411d;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.footer {
+    padding: 100px 0;
+    background-color: #68582f;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.link h3 {
+    font-size: 18px;
+    color: beige;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: beige;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.punto{
+    color: #ad7c1000;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 30px;
+
+    }
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(28, 46, 40);
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .heading{
+        padding: 0px 20px;
+    }
+
+    .heading h1{
+        font-size: 36px;
+    }
+
+    .heading p{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+
+    .container{
+        padding: 0px;
+    }
+
+    .about{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content p{
+    padding: 0px;
+    font-size: 16px;
+    }    
+    .about-content .read-more{
+        font-size: 16px;
+    }
+
+    .milesty-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .milesty-video {
+        display: none;
+    }
+
+    .milesty-group1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .milesty-video {
+        display: none;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
